@@ -16,6 +16,27 @@ The dataset, `ratings_Electronics.csv`, contains the following attributes:
 
 The dataset consists of 7,824,482 observations. To make it computationally feasible, we filter the dataset to include users who have given at least 50 ratings and products that have received at least 5 ratings, resulting in 65,290 observations.
 
+### Usage
+
+1. **Clone the repository:**
+    ```sh
+    git clone https://github.com/mbrakenhoff/recommendation_system.git
+    ```
+
+2. **Navigate to the project directory:**
+    ```sh
+    cd recommendation_system
+    ```
+
+3. **Install dependencies:**
+    ```sh
+    pip install -r requirements.txt
+    ```
+
+4. **Explore the notebooks:**
+    - Review the data preprocessing steps and model building in the notebooks provided ensuring to change data import path to your directory.
+
+
 ## Conclusion
 - Each model performs strongly with slight variations in metrics.
 - The tuned SVD model shows the best overall performance.
